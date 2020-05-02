@@ -1,0 +1,76 @@
+@media only screen and (max-width : 1200px)
+    .first
+        &__title
+            font-size: 32px
+        &__desc
+            font-size: 20px
+
+@media only screen and (max-width : 992px)
+    .first
+        .wrapper
+            height: 100%
+            &__form
+                .form
+                    &__title
+                        margin-bottom: 10px
+
+    .mobile_menu
+        display: flex
+        position: fixed
+        height: 30px
+        width: 42px
+        right: 25px
+        top: 50px
+        border: 1px solid gray
+        background: rgba(128, 128, 128, 0.51)
+        border-radius: 5px
+        align-items: center
+        justify-content: center
+        overflow: hidden
+        z-index: 12
+        &:hover
+            cursor: pointer
+        &__button
+            display: flex
+            width: 30px
+            height: 2px
+            background: #000
+            position: relative
+            border: 0 none
+            &:focus
+                outline-color: transparent
+            &:before,&:after
+                position: absolute
+                content: ''
+                width: 30px
+                height: 2px
+                background: #000
+                left: 0
+            &:before
+                top: 10px
+            &:after
+                bottom: 10px
+    .nav
+        display: none
+        &.open
+            display: flex
+            position: fixed
+            z-index: 12
+            width: 100vw
+            left: 0
+            right: 0
+            ul
+                align-items: center
+                flex-direction: column
+
+@media only screen and (max-width : 768px)
+    .first
+        &__title
+            font-size: 28px
+        &__desc
+            font-size: 16px
+
+@media only screen and (max-width : 540px)
+    .first
+        &__title
+            font-size: 24px

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f93678e-8a49-40e4-89c7-78890c5f6c11" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1atTDamf56gN8SYJQOHKWofTcQt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OpenServer\OSPanel\domains\beewise.fiery.site\wp-content\themes\beewise\assets\build\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f93678e-8a49-40e4-89c7-78890c5f6c11" name="Default Changelist" comment="" />
+      <created>1587553772558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587553772558</updated>
+      <workItem from="1587553776092" duration="17350000" />
+      <workItem from="1587630148689" duration="13157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="803" y="445" key="#WordPress" timestamp="1587553868425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="445" key="#WordPress/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587553868425" />
+    <state x="666" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1587630148969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="343" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587630148969" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\Program Files\OpenServer\OSPanel\domains\beewise.fiery.site</wordpressPath>
+  </component>
+</project>

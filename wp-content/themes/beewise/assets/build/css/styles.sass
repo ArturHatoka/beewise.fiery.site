@@ -1,0 +1,131 @@
+@import node_modules/bootstrap/scss/bootstrap.scss
+@import fonts
+
+$green: #a4814d
+$white: white
+$black-semitransparent: rgba(0, 0, 0, 0.5)
+
+.btn-fill-yellow
+  background: $green
+  color: $white
+  border: 0 none
+
+body
+  font-family: "Gotham Pro", sans-serif
+  font-size: 15px
+  &.custom-background
+    background: none !important
+
+.header
+  left: 0
+  top: 0
+  right: 0
+  &__icon
+    margin-right: 8px
+  .logo
+    font-size: 18px
+  .phone
+    font-size: 24px
+    font-weight: 500
+  .mail
+    font-size: 18px
+  
+.nav
+  display: flex
+  background: $green
+  .list-group
+    padding-left: 15px
+    &-item
+      background: none
+      border: 0 none
+      a
+        text-transform: uppercase
+
+.first
+  min-height: 100vh
+  background: $black-semitransparent 60% 0
+  background-blend-mode: color
+  background-size: cover
+  &>.wrapper
+    padding-bottom: 5%
+  &__title
+    font-size: 43px
+    font-weight: bold
+  & p
+    font-size: 22px
+    font-weight: 300
+  &__btn
+    font-size: 18px
+    font-weight: 500
+    text-transform: uppercase
+  &__form
+    background: $black-semitransparent
+    padding: 30px
+    .form
+      &__title
+        display: block
+        text-transform: uppercase
+        font-size: 15px
+        text-align: center
+        line-height: 30px
+        margin-bottom: 40px
+      &__row
+        display: flex
+        position: relative
+        margin-bottom: 50px
+      &__input
+        width: 100%
+        background: none
+        border-top: 0 none
+        border-right: 0 none
+        border-left: 0 none
+        border-bottom: 1px solid $green
+        color: $white
+        &:focus
+          outline-color: transparent
+        &_label
+          position: absolute
+          left: 5px
+          top: 10%
+          font-size: 12px
+          font-weight: 300
+          filter: brightness(50%)
+          &:hover
+            cursor: text
+      &__btn
+        text-transform: uppercase
+        font-size: 14px
+        font-weight: 500
+        width: 100%
+  &__soc_links
+    margin-top: 25px
+    .soc_links
+      &__title
+        font-size: 12px
+        font-weight: 300
+        margin-bottom: 12px
+      &__link
+        margin: 0 6px
+      &__icon
+        box-shadow: inset 3px -3px 12px 0px #0000008f, -4px 4px 15px 0 #000
+
+.plus
+  &__header
+    height: 90px
+
+.mobile_menu
+  display: none
+
+.bg_wrapper
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  height: 100vh
+  width: 100vw
+  background: $black-semitransparent
+  z-index: 10
+  &.active
+    display: block
+
+@import media
